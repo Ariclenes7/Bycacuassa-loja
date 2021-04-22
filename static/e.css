@@ -1,0 +1,446 @@
+/*
+ *   Copyright (c) 2021 
+ *   All rights reserved.
+ */
+/* produto */
+
+.Produto-Hero .titulo{
+
+  font-size: 1.8 rem;
+  color: #222;
+  margin: 0;
+
+
+}
+
+.Produto-Hero .titulo h2{
+margin-bottom: 0;
+
+}
+
+/*categoria */
+
+.Produto-Hero .categoria p{
+  
+margin-top: 0;
+font-size: 0.9 rem;
+color: #555;
+}
+
+.Produto-Hero .categoria-link{
+  color: #e87c08;
+  cursor: pointer;
+}
+
+.Produto-Hero .preco-original,
+.Produto-Hero .preco-promocao{
+  font-size: 1.8 rem;
+  color: #434343;
+  margin: 0;
+}
+
+.Produto-Hero .preco-original .preco-por{
+  color: #777;
+  font-size: 0.95 rem;
+  font-weight: normal;
+  text-decoration: line-through ;
+
+}
+
+.Produto-Hero .preco-parcelado{
+margin: 0;
+color: #555;
+font-weight: normal;
+
+}
+
+.Produto-Hero .variacao{
+  max-width: 40px;
+  border: 1px solid #999;
+  padding: 10px 5px ;
+  font-size: 1 rem;
+  margin: 5px 10px 5px 0;
+  cursor: pointer;
+
+}
+
+.Produto-Hero .variacao:hover,
+.Produto-Hero .variacao.variacao-active{
+  background-color: #111111;
+  border-color: #111111;
+  color: #ffff;
+
+
+}
+
+.Produto-Hero .opcoes{
+  margin-top: 20 px;
+}
+.Produto-Hero .opcoes-tab{
+  font-size: 0.9 rem;
+  color: #444;
+}
+
+
+.Produto-Hero .opcao-input{
+  font-size: 1.2 rem;
+  padding: 10px 15px;
+  margin: 5px 0;
+  border: 1px solid #999;
+  max-width: 45px;
+
+} 
+
+/* botao*/
+
+.btn{
+  font-size: 1.1 rem;
+  padding: 10px 20px;
+  margin: 10px 0;
+  border: 1px solid #999;
+  background:transparent ;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-sucesso {
+  background-color: rgb( 3 ,123, 17);
+  color:#fff;
+  border: 0;
+}
+
+.btn-primary{
+
+  background-color: rgb( 3 ,123, 17);
+  color:#fff;
+  border: 0;
+}
+
+.btn-cta{
+  padding: 15px 25px;
+  font-size: 1.3 rem;
+  margin: 15px 0; 
+}
+
+.btn-sn{
+  font-size: 0.85rem;
+  padding: 5px 8px;
+  border-radius: 10px;
+}
+
+.foto-principal{
+height: 550px;
+}
+
+.foto-principal img{
+  max-width: 500px;
+}
+
+.mini-foto{
+  border: 10px solid #999;
+  max-width: 100px;
+  margin-right: 10px;
+  cursor: pointer;
+  opacity: 0.8;
+}
+.mini-foto:hover{
+
+  opacity: 1;
+
+}
+
+.descricao{
+  margin-top:50px;
+  max-width: 800px;
+}
+
+.avaliacoes h2,
+.descricao h2
+.produtos-relacionados h2 {
+  color: #222;
+  font-size: 1.8 rem;
+  text-transform: uppercase;
+
+}
+
+
+.avaliacoes,
+.produtos-relacionados{
+margin-top: 50px;
+
+}
+/*...................................................*/
+.avaliacao{
+  border: 1px solid #aaa;
+  box-shadow: 0 0 5px #aaa;
+  padding: 10px 15px;
+  margin: 10px 20px 0;
+  border-radius: 15px;
+}
+
+.avaliacao i.fa-star {
+
+color:#dfd803;
+margin-right: 20px;
+
+
+}
+
+.avaliacoes-form {
+  margin-top: 15px;
+}
+
+.avaliacoes-form h4 {
+
+  color: #e87c08;
+  font-size: 1.2rem;
+}
+
+.avaliacoes-form label{
+  font-size: 0.9 rem;
+  color:#474747;
+  margin:10px 10px 5px 0;
+}
+
+.avaliacoes-form select{
+  font-size: 0.9rem;
+  width: 120px;
+}
+
+.avaliacoes-form textarea{
+  border-radius: 10px;
+  border: 1px solid #aaaa;
+  padding: 10px;
+  font-size: 0.9 rem;
+}
+
+
+/* carrinho*/
+.carrinho > h2 {
+  font-size: 2rem;
+
+} 
+
+.carrinho .produto-image,
+.Checkout .produto-image{
+  height: auto ;
+}
+
+.carrinho .produto-quantidade{
+  font-size: 1rem;
+  padding: 10px 15px;
+  width: 60px;
+  border: 1px solid #aaaa;
+
+}
+
+
+.carrinho .btn-remover,
+.carrinho .limpar-CEP
+  {
+  color: #e87c08;
+  font-size: 0.85rem;
+  text-decoration: underline;
+  cursor:pointer;
+}
+
+.carrinho .carrinho-item{
+margin-bottom: 10px;
+border-bottom: 1px solid #aaaa;
+padding-bottom: 10px;
+}
+
+.carrinho .carrinho-item:last-child{
+  border-bottom: 0;
+
+}
+
+.carrinho .carrinho-cabecalho{
+  background-color: #1111;
+  color:#fff;
+}
+
+.dados-do-carinho-container{
+margin-top: 20px;
+
+}
+
+.dados-do-carrinho-item{
+padding: 10px 0;
+border-top: 1px solid #aaa;
+}
+
+.carrinho select{
+  font-size: 1rem;
+  padding: 5px 10px;
+}
+
+.carrinho .valor-frete{
+  margin: 0;
+}
+
+/* checkout */
+
+.form-input{
+  display: flex;
+  flex-direction: column;
+}
+
+.form-check{
+  flex-direction: row;
+  align-items: center;
+}
+
+.form-input label{
+  margin: 10px 0 5px;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.form-input .form-check label{
+  margin: 0;
+}
+
+
+.form-input input{
+  max-width: 400px;
+  font-size: 1rem;
+  padding: 5px 8px;
+  margin: 0px 5px 5px 0px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+
+}
+
+.checkout select{
+  max-width: 300px;
+  font-size: 1rem;
+  margin: 0px 5px 5px 0;
+}
+
+.checkout .slash-pagamento{
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.checkout  h2{
+border-top: 1px solid #aaaa;
+margin-top: 80px;
+padding-top: 30px;
+
+} 
+
+
+.checkout > h2{
+  border-top: 0px solid #aaaa;
+  margin-bottom: 0px;
+  padding-top: 0px;
+ }
+
+ /*minha conta*/
+ .Acesso-container{
+   margin: 50px auto 10px;
+   width: calc(100% - 20px);
+   padding: 10px;
+   max-width: 500px;
+   border: 1px solid #aaaa;
+   box-shadow: 0 0 5px #aaaa;
+   border-radius: 10px;
+ }
+
+ .Acesso-container .form-input input{
+   max-width: 100%;
+ }
+
+ .Acesso-container .link-acesso{
+   margin-top: 10px;
+   font-size: 0.9rem;
+   cursor: pointer;
+   color:#1e2032;
+
+ }
+
+ .pedidos-continar,
+ .pedido-conteinar,
+ .dados-conteinar,
+ .senha-conteinar{
+   padding-top: 30px !important;
+
+ }
+
+ 
+ .Acesso-container .link-acesso:hover {
+ 
+  text-decoration: underline;
+  
+}
+
+
+.menu-pedido{
+  background-color: #111111;
+  color:#fff;
+
+}
+
+.pedido-card{
+  padding: 15px 0;
+  border-bottom: 1px solid #aaa;
+}
+
+.menu-pedido >div,
+.pedido-card >{
+  padding: 0 10px;
+
+} 
+
+.form-dados,
+.form-dados input{
+  max-width: 700px;
+}
+
+table.simple{
+  border-collapse: collapse;
+}
+table.simple th,
+table.simple td{
+
+  padding: 10px 15px;
+
+}
+
+table.simple th{
+  border-bottom: 1px solid #dddd;
+}
+
+
+table.simple th{
+  background-color: #ff9600;
+  
+}
+
+.status-item{
+border-left: 3px solid green;
+padding: 5px 10px;
+margin: 3px 0;
+width: 95%;
+}
+
+/*alert*/
+.lert {
+margin: 10px 0;
+padding: 10px 15px;
+border: 2px solid #dddd;
+background-color: #eee;
+color: #555;
+font-size: 0.9rem;
+border-radius: 10px;
+}
+
+.alert-danger{
+border: 2px solid rgba(228, 79, 79, 0.867);
+background-color: rgb(196, 50, 50);
+color: rgb(179, 7, 7);
+}
